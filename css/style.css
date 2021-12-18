@@ -1,0 +1,90 @@
+.banner{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.pedro{
+    width: 100%;
+    height: 550px;
+    border-radius: 5px;
+}
+
+.clock-icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.agenda {
+    display: flex;
+    align-items: initial;
+}
+
+.detalhe{
+    width: 100%;
+    height: 5px;
+    border-radius: 5%;
+    /* border: 1px solid red; */
+    background: rgb(250,216,129);
+    background: linear-gradient(190deg, rgba(250,216,129,1) 0%, rgba(209,170,68,1) 100%);
+    margin-bottom: 5%;
+}
+
+.event-sublinhado{
+    width: 5%;
+    height: 5px;
+    border-radius: 5%;
+    background: rgb(250,216,129);
+    background: linear-gradient(190deg, rgba(250,216,129,1) 0%, rgba(209,170,68,1) 100%);
+    margin-bottom: 5%;
+}
+
+.st{
+    width: 100%;
+}
+
+.contact{
+    height: 250px;
+}
+
+.contact-desk span{
+    margin-right: 2%;
+}
+
+.location{
+    height: 500px;
+}
+
+.copyrigth{
+    height: 70px;
+}
+
+.chamadas {
+    /* margin-left: -100px; */
+    /* width: calc(100% + 200px);
+    margin-top: 90px; */
+    position: relative;
+    z-index: 4;
+}
+
+.scale-animation {transform:scale(1.2);transform-origin:center;opacity:0;}
+.scale-animation.remove{
+        transform: scale(1.0);
+        opacity: 1;
+        transition: ease-out all 1.5s;
+}
+
+@media screen and (max-width: 992px) {
+    .contact{
+        height: 600px;
+    }
+
+    .contact span{
+        font-size: 14px;
+    }
+
+    .contact-desk{
+        display: none;
+    }
+}
