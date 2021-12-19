@@ -85,7 +85,8 @@ body{
     }
 
     .contact span{
-        font-size: 12px;
+        font-size: 14px;
+        word-break: break-all;
     }
 
     .contact-desk{
