@@ -1,3 +1,7 @@
+body{
+    padding-top: 72px;
+}
+
 .banner{
     width: 100%;
     height: auto;
@@ -87,4 +91,6 @@
     .contact-desk{
         display: none;
     }
+
+    .scale-animation {transform:scale(1.0);transform-origin:center;opacity:0;}
 }

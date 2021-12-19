@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar w-100 navbar-expand-lg navbar-dark bg-dark py-3 fixed-top box-shadow">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">SÃO PEDRO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -23,13 +23,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Missas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -37,10 +40,10 @@
     </nav>
 
     <div class="container-fluid p-0 chamadas ">
-            <div id="owl-banner" class="owl-carousel">
-                <img class="banner" src="./img/nativity-scene.jpg" alt="">
-                <img class="banner" src="./img/nativity-scene.jpg" alt="">
-            </div>
+        <div id="owl-banner" class="owl-carousel">
+            <img class="banner" src="./img/nativity-scene.jpg" alt="">
+            <img class="banner" src="./img/nativity-scene.jpg" alt="">
+        </div>
     </div>
 
     <section class="about m-5 chamadas">
@@ -89,14 +92,14 @@
                                 </div>
                             </div>
 
-                            <p>São Pedro nasceu em Betsaida, um pequeno vilarejo às margens do lago de Genesaré, 
-                                ou Mar da Galiléia, no norte de Israel. Seu nome de nascimento era Simão. 
-                                Quando conheceu Jesus, Simão era casado (os Evangelhos falam da cura da sogra de Pedro) 
-                                e morava em Cafarnaum, importante cidade às margens do lago de Genesaré. 
-                                Era filho de Jonas e tinha um irmão, André. Este foi quem o apresentou a Jesus. 
-                                Os dois se tornaram discípulos de Jesus e mais tarde apóstolos. 
-                                São Pedro era pescador e possuía um barco, em sociedade com seu irmão. 
-                                Ambos trabalhavam no Mar da Galiléia, um lago de água doce formado pelo Rio Jordão, 
+                            <p>São Pedro nasceu em Betsaida, um pequeno vilarejo às margens do lago de Genesaré,
+                                ou Mar da Galiléia, no norte de Israel. Seu nome de nascimento era Simão.
+                                Quando conheceu Jesus, Simão era casado (os Evangelhos falam da cura da sogra de Pedro)
+                                e morava em Cafarnaum, importante cidade às margens do lago de Genesaré.
+                                Era filho de Jonas e tinha um irmão, André. Este foi quem o apresentou a Jesus.
+                                Os dois se tornaram discípulos de Jesus e mais tarde apóstolos.
+                                São Pedro era pescador e possuía um barco, em sociedade com seu irmão.
+                                Ambos trabalhavam no Mar da Galiléia, um lago de água doce formado pelo Rio Jordão,
                                 na região da Galiléia em Israel.</p>
                         </div>
                     </div>
@@ -114,8 +117,12 @@
     <section class="carousel chamadas">
         <div class="container">
             <div class="row">
-                <h1 class="p-0 mb-0">Eventos</h1>
-                <div class="event-sublinhado"></div>
+                <div class="col-lg-6">
+                    <h1 class="h1 p-0 mb-0">
+                        Eventos
+                    </h1>
+                    <div class="event-sublinhado"></div>
+                </div>
             </div>
         </div>
         <div id="owl-eventos" class="owl-carousel chamadas">
@@ -145,7 +152,10 @@
                     </h1>
                     <div class="event-sublinhado"></div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa ullam soluta eligendi inventore pariatur, dolorem, impedit deleniti mollitia vero cumque. Eaque, hic esse minima repudiandae odit fuga ut facilis architecto quae veniam, incidunt ipsa quibusdam numquam sapiente debitis tempora voluptatem expedita molestiae eum cum. Facere ad dolorem quam velit!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa ullam soluta eligendi
+                        inventore pariatur, dolorem, impedit deleniti mollitia vero cumque. Eaque, hic esse minima
+                        repudiandae odit fuga ut facilis architecto quae veniam, incidunt ipsa quibusdam numquam
+                        sapiente debitis tempora voluptatem expedita molestiae eum cum. Facere ad dolorem quam velit!
                     </p>
                 </div>
                 <div class="col-lg-6">
@@ -163,28 +173,39 @@
                 </div>
                 <div class="d-flex justify-content-between mt-5">
                     <div class="row">
-                        <span class="d-lg-none col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/location.svg" alt=""> Av. Manoel da Nobrega, 256</span>
-                        <span class="d-lg-none col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/tel.svg" alt=""> (13) 3468-5371</span>
-                        <span class="d-lg-none col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/email.svg" alt=""> paroquiasaopedroopescador@hotmail.com</span>
-                        <span class="d-lg-none col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/face.svg" alt=""> acebook</span>
-                        <span class="d-lg-none col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/insta.svg" alt=""> Instagram</span>
+                        <span class="d-lg-none col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/location.svg"
+                                alt=""> Av. Manoel da Nobrega, 256</span>
+                        <span class="d-lg-none col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/tel.svg" alt="">
+                            (13) 3468-5371</span>
+                        <span class="d-lg-none col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/email.svg" alt="">
+                            paroquiasaopedroopescador@hotmail.com</span>
+                        <span class="d-lg-none col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/face.svg" alt="">
+                            acebook</span>
+                        <span class="d-lg-none col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/insta.svg" alt="">
+                            Instagram</span>
                     </div>
                 </div>
                 <div class="contact-desk">
-                    <span class="col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/location.svg" alt=""> Av. Manoel da Nobrega, 256</span>
-                    <span class="col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/tel.svg" alt=""> (13) 3468-5371</span>
-                    <span class="col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/email.svg" alt=""> paroquiasaopedroopescador@hotmail.com</span>
+                    <span class="col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/location.svg" alt=""> Av. Manoel
+                        da Nobrega, 256</span>
+                    <span class="col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/tel.svg" alt=""> (13)
+                        3468-5371</span>
+                    <span class="col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/email.svg" alt="">
+                        paroquiasaopedroopescador@hotmail.com</span>
                     <span class="col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/face.svg" alt=""> acebook</span>
-                    <span class="col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/insta.svg" alt=""> Instagram</span>
+                    <span class="col-xs-12 mt-lg-0 mt-5"><img class="me-2" src="./img/insta.svg" alt="">
+                        Instagram</span>
                 </div>
-                        
+
             </div>
         </div>
     </section>
 
     <section class="location">
         <div class="container-fluid p-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.65537197749!2d-46.37235668439104!3d-23.972623782794596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1cc8e473bc6d%3A0x30cf004622bd697c!2zUGFyw7NxdWlhIFPDo28gUGVkcm8g4oCcTyBQZXNjYWRvcuKAnQ!5e0!3m2!1spt-BR!2sbr!4v1639865637991!5m2!1spt-BR!2sbr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.65537197749!2d-46.37235668439104!3d-23.972623782794596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1cc8e473bc6d%3A0x30cf004622bd697c!2zUGFyw7NxdWlhIFPDo28gUGVkcm8g4oCcTyBQZXNjYWRvcuKAnQ!5e0!3m2!1spt-BR!2sbr!4v1639865637991!5m2!1spt-BR!2sbr"
+                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
 

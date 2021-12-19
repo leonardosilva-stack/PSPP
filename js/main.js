@@ -88,3 +88,11 @@ $(window).scroll(function(){
 
 $('.chamadas').addClass('scale-animation')
 $('.chamadas').addClass('scale-animation')
+
+{/* <script type="text/javascript">
+	function imgSlider(anything){
+		document.querySelector('.img-galeria').src = anything;
+			// event.preventDefault();
+		$('html, body').animate({ scrollTop: $(".img-galeria").offset().top -140}, 50);
+	}
+</script> */}
