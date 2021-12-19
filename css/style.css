@@ -98,5 +98,15 @@ body{
         display: none;
     }
 
+    .pedro{
+        margin-top: 0px;
+        height: 400px;
+    }
+
+    .about h1{
+        font-weight: bold;
+        font-size: 25px;
+    }
+
     .scale-animation {transform:scale(1.0);transform-origin:center;opacity:0;}
 }
