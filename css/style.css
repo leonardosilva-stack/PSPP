@@ -1,5 +1,10 @@
 body{
     padding-top: 72px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+
 }
 
 .banner{

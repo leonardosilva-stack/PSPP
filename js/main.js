@@ -89,10 +89,10 @@ $(window).scroll(function(){
 $('.chamadas').addClass('scale-animation')
 $('.chamadas').addClass('scale-animation')
 
-{/* <script type="text/javascript">
+
 	function imgSlider(anything){
-		document.querySelector('.img-galeria').src = anything;
+		// document.querySelector('.img-galeria').src = anything;
 			// event.preventDefault();
-		$('html, body').animate({ scrollTop: $(".img-galeria").offset().top -140}, 50);
+			console.log("#"+anything)
+		$('html, body').animate({ scrollTop: $("#"+anything).offset().top -140}, 1000);
 	}
-</script> */}
